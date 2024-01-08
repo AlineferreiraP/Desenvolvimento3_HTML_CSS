@@ -27,12 +27,12 @@ ul{
     font-size: x-large;
     border-radius: 10px;
 }
-a{
-     color: blue; } 
 
-p{
+footer{
     background-color:white;
     color: blue;
     margin-top: 20%;
-   
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
 }
