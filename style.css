@@ -1,47 +1,41 @@
-body{
-  background-image: url("img/marcozero.jpg");
- 
+.flex-container{
+    background-image: url("img/marcozero.jpg");
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.flex-item1{
+  align-self: center;
+  
+  
+}
+.flex-item2{
+  
+    align-self: center;
+    align-items: end;
+    margin-top: 100px;
 }
 span{
-    color: aliceblue;
-}
-nav{
-    color: aliceblue;
+    color: white;
 }
 h1{
-    color: aliceblue;
-    text-align: center;
-    
+color: white;    
 }
 h2{
-    color: blue;
     background-color: white;
-    font-family:Arial, Helvetica, sans-serif;   
-    border-radius: 5px;
-    text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
-}
-a{
-    color: blue;
+    
 }
 ul{
     background-color: white;
-    text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
     font-size: x-large;
-    border-radius: 10px;
-    margin-left: 30%;
-    margin-right: 30%;
-    text-align: center;
-    color: blue;
+    
 }
-
 footer{
-    background-color:white;
+    background-color: white;
+
+}
+*{
     color: blue;
-    margin-top: 20%;
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: center;
+    border-radius: 5px;
+    
 }
