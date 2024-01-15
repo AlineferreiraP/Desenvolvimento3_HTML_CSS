@@ -7,9 +7,9 @@
     <link rel="shortcut icon" href="img/marcozero.jpg" type="image/x-icon">
     
 </head>
-<header>
-    <span>Marco Zero</span>
-    <nav>
+<header class="flex-container">
+    <span class="flex-item1">Marco Zero</span>
+    <nav class="flex-item1">
         <ul>
             <li><a href="index.html">Voltar a pagina inicial</a></li>
             <li><a href="local.html">Localização</a></li>
@@ -18,8 +18,8 @@
     </nav>
     <h1>História do Marco Zero</h1>
 </header>
-<body >
-      <img src="img/casaraorecifeantigo.jpg" alt="Casarão Marco Zero">
+<body class="flex-container">
+      <img src="img/casaraorecifeantigo.jpg" alt="Casarão Marco Zero" >
       <p>
         O Bairro do Recife, no centro da cidade, foi a trilha adotada para expandir o crescimento da área do Estado de Pernambuco, que se iniciou com a ocupação de povos europeus.
 
@@ -50,7 +50,7 @@ Logo ao lado, atualmente, fica o Centro de Artesanato de Pernambuco, que conta c
       </p>
 
 </body>
-<footer>
+<footer class="flex-item2">
     <p>Janeiro de 2024 - Proz Cloud Talent </p>
     <p>Informações retiradas do google, caso encontre algum erro entre em contato clicando no nome abaixo.</p>
     <a href="mailto:alinefpena@gmail.com">Aline Ferreira </a>
@@ -58,6 +58,26 @@ Logo ao lado, atualmente, fica o Centro de Artesanato de Pernambuco, que conta c
 </html>
 
 <style>
+
+    .flex-container{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: flex-start
+       
+       
+    }
+    .flex-item1{
+        
+        align-self: flex-start;
+
+
+    }
+    .flex-item2{
+        align-items: center;
+        
+    }
+
     body{
         background-color: rgb(200, 205, 226);
     }
@@ -75,25 +95,17 @@ Logo ao lado, atualmente, fica o Centro de Artesanato de Pernambuco, que conta c
     }
     h1{
         color: rgb(62, 62, 77);
-        text-align: center;
+        
     }
     img{
-        height: 300px;
-        margin-top: 20px;
-        display: block;
-        margin: 0px auto;
-        border:solid white 1px;
-        border-radius: 10px;
-
-        
+        border-radius: 5px;
+        width: 55%;
         
     }
+
     p{
         font-family: Arial, Helvetica, sans-serif;
         color: rgb(65, 60, 60);
     }
-    footer {
-        margin-top: 0px auto;
-        text-align: center;
-    }
+    
 </style>
